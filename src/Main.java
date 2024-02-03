@@ -24,7 +24,8 @@ public class Main {
             System.out.println("4. Calculate Total Number of Products");
             System.out.println("5. Print Details of a Product");
             System.out.println("6. Check if a Fruit is Expired");
-            System.out.println("7. View All Products");
+            System.out.println("7. Check Model of an Electronic");
+            System.out.println("8. View All Products");
             System.out.println("0. Exit");
             int choice = scanner.nextInt();
 
@@ -96,7 +97,22 @@ public class Main {
                         System.out.println("Product Not Found");
                     }
                     break;
-                case 7: // View All Products
+                case 7: // Check Model of an Electronic
+                    System.out.println("Enter Product Name");
+                    String name3 = scanner.next();
+                    Product productToCheckModel = store.searchProductByName(name3);
+                    if (productToCheckModel != null) {
+                        if (productToCheckModel instanceof Electronics) {
+                            Electronics electronic = (Electronics) productToCheckModel;
+                            System.out.println("Model: " + electronic.getModel());
+                        } else {
+                            System.out.println("Product is not an Electronic");
+                        }
+                    } else {
+                        System.out.println("Product Not Found");
+                    }
+                    break;
+                case 8: // View All Products
                     for (Product product : store.getAllProducts()) {
                         product.print();
                     }
