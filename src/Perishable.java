@@ -1,0 +1,3 @@
+interface Perishable {
+    boolean isExpired();
+}
