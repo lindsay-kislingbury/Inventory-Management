@@ -5,7 +5,7 @@
 ## Working With Git in VS Code
 
 **Git Video Demonstration:**  
-[Working with Git in VS Code Video](https://www.canva.com/design/DAF7xUM8z3w/jtiRYxB2uzTqMRnGHeo2WA/edit?utm_content=DAF7xUM8z3w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Working with Git in VS Code Video](https://vimeo.com/909569931?share=copy)
 
 **Video Created with**  
 [OBS Studio](https://obsproject.com/)
