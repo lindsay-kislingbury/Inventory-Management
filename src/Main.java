@@ -16,7 +16,7 @@ public class Main {
         // Menu
         while (true) {
             System.out.println("--------------------");
-            System.out.println("this is a new test message!");
+            System.out.println("NEW FEATURE!");
             System.out.println("Welcome to Inventory Management System");
             System.out.println("1. Add Product");
             System.out.println("2. Remove Product");
